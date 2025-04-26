@@ -1,0 +1,1145 @@
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.230.178:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 998-275-650
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 01:25:34] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 01:25:35] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 01:25:35] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 01:25:35] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=rxB1DsH9AAchFsM8F9bS HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 01:25:35] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.230.178:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 998-275-650
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 01:31:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 01:31:27] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 01:31:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 01:31:46] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 01:31:46] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 01:31:46] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 01:31:46] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=L3qbr38jGtPjBUhabXpL HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\saura\\Desktop\\SkinDiseasePrediction\\src\\config.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 998-275-650
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0024308.jpg
+INFO:root:Prediction: nv with 99.55% confidence.
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 01:36:25] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 01:36:25] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 01:36:25] "[33mGET /static/uploads/ISIC_0024308.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 01:36:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 01:36:30] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0024308.jpg
+INFO:root:Prediction: nv with 99.55% confidence.
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 01:36:38] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 01:36:39] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 01:36:39] "[33mGET /static/uploads/ISIC_0024308.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 01:36:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 01:36:42] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.230.178:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 998-275-650
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 01:38:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 01:38:11] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0024316.jpg
+INFO:root:Prediction: nv with 99.99% confidence.
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 01:38:23] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 01:38:23] "[33mGET /static/uploads/ISIC_0024316.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 01:38:23] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 01:38:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 01:38:29] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0034314.jpg
+INFO:root:Prediction: nv with 87.34% confidence.
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 01:39:03] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 01:39:03] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 01:39:03] "[33mGET /static/uploads/ISIC_0034314.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 01:41:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 01:41:53] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0024316.jpg
+INFO:root:Prediction: nv with 99.99% confidence.
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 01:42:11] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 01:42:11] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 01:42:11] "[33mGET /static/uploads/ISIC_0024316.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 01:42:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 01:42:32] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0024312.jpg
+INFO:root:Prediction: bcc with 23.35% confidence.
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 01:42:48] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 01:42:48] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 01:42:48] "[33mGET /static/uploads/ISIC_0024312.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\saura\\Desktop\\SkinDiseasePrediction\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 998-275-650
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.118:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 998-275-650
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:00:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:00:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:00:56] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:00:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:00:59] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:01:21] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:01:21] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:01:21] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:01:21] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=7JWYmXwHYprZBrRa1VKy HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:01:21] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.118:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 998-275-650
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:06:06] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:06:06] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:06:06] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:06:06] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=vgDzWY14TCDvC19Xo1sj HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:06:06] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:06:11] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:06:11] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:06:11] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:06:11] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=vgDzWY14TCDvC19Xo1sj HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:06:52] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:06:52] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:06:52] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:06:52] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=vgDzWY14TCDvC19Xo1sj HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:06:52] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:06:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:06:56] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:07:01] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:07:02] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:07:02] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:07:02] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=vgDzWY14TCDvC19Xo1sj HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:07:02] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\saura\\Desktop\\SkinDiseasePrediction\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 998-275-650
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:08:16] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:08:17] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:08:17] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:08:17] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=Mh5W2LHoBG3KAGJl12zK HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:08:17] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\saura\\Desktop\\SkinDiseasePrediction\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 998-275-650
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:09:04] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:09:04] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:09:04] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:09:04] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=3pLRpZihNpiORX9xYr5C HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:09:04] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\saura\\Desktop\\SkinDiseasePrediction\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 998-275-650
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0024311.jpg
+INFO:root:Prediction: nv with 100.00% confidence.
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:09:50] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:09:50] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:09:50] "[33mGET /static/uploads/ISIC_0024311.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\saura\\Desktop\\SkinDiseasePrediction\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 998-275-650
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.118:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 998-275-650
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:17:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:17:11] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0024311.jpg
+INFO:root:Prediction: nv with 100.00% confidence.
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:17:18] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:17:18] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:17:18] "[33mGET /static/uploads/ISIC_0024311.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:17:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:17:27] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0024327.jpg
+INFO:root:Prediction: nv with 99.98% confidence.
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:17:39] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:17:39] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:17:39] "[33mGET /static/uploads/ISIC_0024327.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:17:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:17:45] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0034316.jpg
+INFO:root:Prediction: mel with 74.86% confidence.
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:18:02] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:18:03] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:18:03] "[33mGET /static/uploads/ISIC_0034316.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:18:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:18:09] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0031043.jpg
+INFO:root:Prediction: akiec with 61.80% confidence.
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:18:21] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:18:21] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:18:21] "[33mGET /static/uploads/ISIC_0031043.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:18:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:19:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:19:05] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\WhatsApp Image 2025-03-12 at 22.38.54_1609fb85.jpg
+INFO:root:Prediction: bkl with 97.66% confidence.
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:23:36] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:23:36] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:23:36] "[33mGET /static/uploads/WhatsApp%20Image%202025-03-12%20at%2022.38.54_1609fb85.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:23:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:23:44] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:27:10] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:27:10] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:27:10] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:27:10] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=oL2fv6pudMyROn3Cb98i HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:27:10] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\WhatsApp Image 2025-03-12 at 22.38.54_1609fb85.jpg
+INFO:root:Prediction: bkl with 97.66% confidence.
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:27:29] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:27:29] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:27:29] "[33mGET /static/uploads/WhatsApp%20Image%202025-03-12%20at%2022.38.54_1609fb85.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:27:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:27:40] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\IMG_20250209_120848.jpg
+INFO:root:Prediction: bkl with 38.73% confidence.
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:27:48] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:27:48] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:27:48] "[33mGET /static/uploads/IMG_20250209_120848.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:27:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:27:52] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:27:59] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:27:59] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:27:59] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:27:59] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=oL2fv6pudMyROn3Cb98i HTTP/1.1[0m" 304 -
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\OIP.jpg
+INFO:root:Prediction: nv with 87.47% confidence.
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:28:12] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:28:13] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:28:13] "[33mGET /static/uploads/OIP.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:28:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:28:27] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0024313.jpg
+INFO:root:Prediction: nv with 76.00% confidence.
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:28:41] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:28:41] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:28:41] "[33mGET /static/uploads/ISIC_0024313.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\saura\\Desktop\\SkinDiseasePrediction\\src\\predict.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 998-275-650
+INFO:werkzeug: * Detected change in 'C:\\Users\\saura\\Desktop\\SkinDiseasePrediction\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 998-275-650
+WARNING:root:Image does not appear to be a skin image: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0024313.jpg
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:34:14] "POST / HTTP/1.1" 200 -
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0024316.jpg
+INFO:root:Prediction: nv with 99.99% confidence.
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:34:25] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:34:25] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:34:25] "[33mGET /static/uploads/ISIC_0024316.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:34:29] "GET / HTTP/1.1" 200 -
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\Screenshot 2025-02-21 165628.png
+WARNING:root:Low confidence prediction: 32.93% for nv
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:34:40] "POST / HTTP/1.1" 200 -
+WARNING:root:Image does not appear to be a skin image: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\WhatsApp Image 2025-03-12 at 22.38.54_1609fb85.jpg
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:34:51] "POST / HTTP/1.1" 200 -
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\OIP.jpg
+INFO:root:Prediction: nv with 87.47% confidence.
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:35:05] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:35:06] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:35:06] "[33mGET /static/uploads/OIP.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:35:09] "GET / HTTP/1.1" 200 -
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\HD-wallpaper-krishna-mahabharat-lord-krishna-riligious-hindu-god-bhakti-devotional-god.jpg
+INFO:root:Prediction: nv with 84.20% confidence.
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:35:16] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:35:16] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:35:16] "[33mGET /static/uploads/HD-wallpaper-krishna-mahabharat-lord-krishna-riligious-hindu-god-bhakti-devotional-god.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:35:18] "GET / HTTP/1.1" 200 -
+WARNING:root:Image does not appear to be a skin image: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\WhatsApp Image 2025-03-12 at 22.38.54_1609fb85.jpg
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:35:29] "POST / HTTP/1.1" 200 -
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0031343.jpg
+INFO:root:Prediction: nv with 100.00% confidence.
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:36:49] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:36:49] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:36:49] "[33mGET /static/uploads/ISIC_0031343.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:36:53] "GET / HTTP/1.1" 200 -
+WARNING:root:Image does not appear to be a skin image: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0032343.jpg
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:37:10] "POST / HTTP/1.1" 200 -
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0032254.jpg
+INFO:root:Prediction: nv with 99.97% confidence.
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:37:26] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:37:26] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:37:26] "[33mGET /static/uploads/ISIC_0032254.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:37:40] "GET / HTTP/1.1" 200 -
+WARNING:root:Image does not appear to be a skin image: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0034320.jpg
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:37:49] "POST / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\saura\\Desktop\\SkinDiseasePrediction\\src\\predict.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 998-275-650
+WARNING:root:Image failed validation: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0034320.jpg, skin_tone_ratio=0.20, sat_ratio=0.58, val_ratio=0.49, texture_variance=162.48
+WARNING:root:Image does not appear to be a skin image: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0034320.jpg
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:38:45] "POST / HTTP/1.1" 200 -
+WARNING:root:Image failed validation: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0024306.jpg, skin_tone_ratio=0.56, sat_ratio=0.93, val_ratio=0.18, texture_variance=43.88
+WARNING:root:Image does not appear to be a skin image: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0024306.jpg
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:38:51] "POST / HTTP/1.1" 200 -
+WARNING:root:Image failed validation: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0024317.jpg, skin_tone_ratio=0.36, sat_ratio=0.41, val_ratio=0.42, texture_variance=57.20
+WARNING:root:Image does not appear to be a skin image: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0024317.jpg
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:38:58] "POST / HTTP/1.1" 200 -
+WARNING:root:Image failed validation: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0024338.jpg, skin_tone_ratio=0.36, sat_ratio=1.00, val_ratio=0.93, texture_variance=46.27
+WARNING:root:Image does not appear to be a skin image: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0024338.jpg
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:39:07] "POST / HTTP/1.1" 200 -
+WARNING:root:Image failed validation: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0024338.jpg, skin_tone_ratio=0.36, sat_ratio=1.00, val_ratio=0.93, texture_variance=46.27
+WARNING:root:Image does not appear to be a skin image: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0024338.jpg
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:39:12] "POST / HTTP/1.1" 200 -
+WARNING:root:Image failed validation: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0024313.jpg, skin_tone_ratio=0.05, sat_ratio=0.79, val_ratio=0.09, texture_variance=51.09
+WARNING:root:Image does not appear to be a skin image: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0024313.jpg
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:39:29] "POST / HTTP/1.1" 200 -
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.118:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 998-275-650
+WARNING:root:Image failed validation: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0024313.jpg, skin_tone_ratio=0.05, sat_ratio=0.79, val_ratio=0.09, texture_variance=51.09
+WARNING:root:Image does not appear to be a skin image: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0024313.jpg
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:40:18] "POST / HTTP/1.1" 200 -
+WARNING:root:Image failed validation: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0024313.jpg, skin_tone_ratio=0.05, sat_ratio=0.79, val_ratio=0.09, texture_variance=51.09
+WARNING:root:Image does not appear to be a skin image: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0024313.jpg
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:40:24] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:40:40] "GET / HTTP/1.1" 200 -
+WARNING:root:Image failed validation: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0024317.jpg, skin_tone_ratio=0.36, sat_ratio=0.41, val_ratio=0.42, texture_variance=57.20
+WARNING:root:Image does not appear to be a skin image: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0024317.jpg
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:40:48] "POST / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\saura\\Desktop\\SkinDiseasePrediction\\src\\predict.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 998-275-650
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0024316.jpg
+INFO:root:Prediction: nv with 99.99% confidence.
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:41:25] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:41:25] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:41:25] "[33mGET /static/uploads/ISIC_0024316.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:41:39] "GET / HTTP/1.1" 200 -
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0034320.jpg
+INFO:root:Prediction: mel with 52.17% confidence.
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:41:48] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:41:48] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:41:48] "[33mGET /static/uploads/ISIC_0034320.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:41:57] "GET / HTTP/1.1" 200 -
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0028794.jpg
+INFO:root:Prediction: nv with 99.81% confidence.
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:42:08] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:42:08] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:42:08] "[33mGET /static/uploads/ISIC_0028794.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:42:10] "GET / HTTP/1.1" 200 -
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\5b31cae379b0620be0ff367d.jpg
+INFO:root:Prediction: nv with 75.08% confidence.
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:42:59] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:42:59] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:42:59] "[33mGET /static/uploads/5b31cae379b0620be0ff367d.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:43:35] "GET / HTTP/1.1" 200 -
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\OIP.jpeg
+INFO:root:Prediction: nv with 59.67% confidence.
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:43:43] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:43:43] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:43:43] "[33mGET /static/uploads/OIP.jpeg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:47:32] "GET / HTTP/1.1" 200 -
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0027419.jpg
+INFO:root:Prediction: bcc with 29.15% confidence.
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:48:46] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:48:46] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 02:48:46] "[33mGET /static/uploads/ISIC_0027419.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\saura\\Desktop\\SkinDiseasePrediction\\src\\config.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 998-275-650
+INFO:werkzeug: * Detected change in 'C:\\Users\\saura\\Desktop\\SkinDiseasePrediction\\src\\config.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 998-275-650
+INFO:werkzeug: * Detected change in 'C:\\Users\\saura\\Desktop\\SkinDiseasePrediction\\src\\predict.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 998-275-650
+INFO:werkzeug: * Detected change in 'C:\\Users\\saura\\Desktop\\SkinDiseasePrediction\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 998-275-650
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.118:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 998-275-650
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:02:03] "GET / HTTP/1.1" 200 -
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0024323.jpg
+WARNING:root:Low confidence prediction: 42.05% for Melanoma
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:02:17] "POST / HTTP/1.1" 200 -
+WARNING:root:Image failed validation: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0024339.jpg, skin_tone_ratio=0.30, sat_ratio=0.96, val_ratio=0.08, texture_variance=29.08
+WARNING:root:Image does not appear to be a skin image: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0024339.jpg
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:02:24] "POST / HTTP/1.1" 200 -
+WARNING:root:Image failed validation: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0024327.jpg, skin_tone_ratio=0.33, sat_ratio=0.96, val_ratio=0.27, texture_variance=140.46
+WARNING:root:Image does not appear to be a skin image: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0024327.jpg
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:02:33] "POST / HTTP/1.1" 200 -
+WARNING:root:Image failed validation: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0024561.jpg, skin_tone_ratio=0.44, sat_ratio=0.11, val_ratio=0.13, texture_variance=17.61
+WARNING:root:Image does not appear to be a skin image: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0024561.jpg
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:02:49] "POST / HTTP/1.1" 200 -
+WARNING:root:Image failed validation: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0024561.jpg, skin_tone_ratio=0.44, sat_ratio=0.11, val_ratio=0.13, texture_variance=17.61
+WARNING:root:Image does not appear to be a skin image: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0024561.jpg
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:02:55] "POST / HTTP/1.1" 200 -
+WARNING:root:Image failed validation: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0024306.jpg, skin_tone_ratio=0.56, sat_ratio=0.93, val_ratio=0.18, texture_variance=43.88
+WARNING:root:Image does not appear to be a skin image: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0024306.jpg
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:03:02] "POST / HTTP/1.1" 200 -
+WARNING:root:Image failed validation: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0024365.jpg, skin_tone_ratio=0.86, sat_ratio=0.87, val_ratio=0.45, texture_variance=114.95
+WARNING:root:Image does not appear to be a skin image: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0024365.jpg
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:03:36] "POST / HTTP/1.1" 200 -
+ERROR:root:No file selected.
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:03:37] "POST / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\saura\\Desktop\\SkinDiseasePrediction\\src\\predict.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 998-275-650
+INFO:werkzeug: * Detected change in 'C:\\Users\\saura\\Desktop\\SkinDiseasePrediction\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 998-275-650
+ERROR:root:No file selected.
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:06:01] "POST / HTTP/1.1" 200 -
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0024312.jpg
+WARNING:root:Low confidence prediction: 23.35% for Basal Cell Carcinoma
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:06:12] "POST / HTTP/1.1" 200 -
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0024355.jpg
+INFO:root:Prediction: Melanocytic Nevi with 84.50% confidence. Top-2: ['Melanocytic Nevi: 84.50%', 'Melanoma: 7.35%']
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:06:32] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:06:33] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:06:33] "[33mGET /static/uploads/ISIC_0024355.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\saura\\Desktop\\SkinDiseasePrediction\\src\\predict.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 998-275-650
+INFO:werkzeug: * Detected change in 'C:\\Users\\saura\\Desktop\\SkinDiseasePrediction\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 998-275-650
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:08:20] "GET / HTTP/1.1" 200 -
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0024338.jpg
+INFO:root:Prediction: Benign Keratosis-like Lesions with 26.78% confidence. Top-2: ['Benign Keratosis-like Lesions: 26.78%', 'Basal Cell Carcinoma: 19.34%']
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:08:27] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:08:27] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:08:27] "[33mGET /static/uploads/ISIC_0024338.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\saura\\Desktop\\SkinDiseasePrediction\\src\\predict.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.118:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 998-275-650
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:13:49] "GET / HTTP/1.1" 200 -
+INFO:root:Image saved to: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0024311.jpg
+INFO:root:Image URL set to: uploads/ISIC_0024311.jpg
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0024311.jpg
+INFO:root:Prediction: Melanocytic Nevi with 100.00% confidence. Top-2: ['Melanocytic Nevi: 100.00%', 'Benign Keratosis-like Lesions: 0.00%']
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:13:55] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:13:55] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:13:55] "[33mGET /static/uploads/ISIC_0024311.jpg HTTP/1.1[0m" 404 -
+INFO:root:Image saved to: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0024338.jpg
+INFO:root:Image URL set to: uploads/ISIC_0024338.jpg
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0024338.jpg
+INFO:root:Prediction: Benign Keratosis-like Lesions with 26.78% confidence. Top-2: ['Benign Keratosis-like Lesions: 26.78%', 'Basal Cell Carcinoma: 19.34%']
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:14:09] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:14:09] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:14:09] "[33mGET /static/uploads/ISIC_0024338.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:14:11] "GET / HTTP/1.1" 200 -
+INFO:root:Image saved to: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0024311.jpg
+INFO:root:Image URL set to: uploads/ISIC_0024311.jpg
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\ISIC_0024311.jpg
+INFO:root:Prediction: Melanocytic Nevi with 100.00% confidence. Top-2: ['Melanocytic Nevi: 100.00%', 'Benign Keratosis-like Lesions: 0.00%']
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:14:17] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:14:17] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:14:17] "[33mGET /static/uploads/ISIC_0024311.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\saura\\Desktop\\SkinDiseasePrediction\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 998-275-650
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:18:20] "GET / HTTP/1.1" 200 -
+INFO:root:Image saved to: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\d711c676-b915-4a71-9cd5-2bc71059ad0d.jpg
+INFO:root:Image URL set to: uploads/d711c676-b915-4a71-9cd5-2bc71059ad0d.jpg
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\d711c676-b915-4a71-9cd5-2bc71059ad0d.jpg
+INFO:root:Prediction: Melanocytic Nevi with 90.56% confidence. Top-2: ['Melanocytic Nevi: 90.56%', 'Melanoma: 8.25%']
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:18:27] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:18:27] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:18:27] "[33mGET /static/uploads/d711c676-b915-4a71-9cd5-2bc71059ad0d.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\saura\\Desktop\\SkinDiseasePrediction\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 998-275-650
+INFO:root:Image saved to: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\9df043b0-f2ed-4421-8ecc-b3a7c4aff5bc.jpg
+INFO:root:Absolute path: C:\Users\saura\Desktop\SkinDiseasePrediction\static\uploads\9df043b0-f2ed-4421-8ecc-b3a7c4aff5bc.jpg
+INFO:root:Image file size: 273903 bytes
+INFO:root:Image URL set to: uploads/9df043b0-f2ed-4421-8ecc-b3a7c4aff5bc.jpg
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\9df043b0-f2ed-4421-8ecc-b3a7c4aff5bc.jpg
+INFO:root:Prediction: Melanocytic Nevi with 90.56% confidence. Top-2: ['Melanocytic Nevi: 90.56%', 'Melanoma: 8.25%']
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:21:33] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:21:33] "[33mGET /static/uploads/9df043b0-f2ed-4421-8ecc-b3a7c4aff5bc.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:21:33] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:21:43] "GET / HTTP/1.1" 200 -
+INFO:root:Image saved to: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\97c283fa-e866-45e0-82b6-2b3035db1a90.jpg
+INFO:root:Absolute path: C:\Users\saura\Desktop\SkinDiseasePrediction\static\uploads\97c283fa-e866-45e0-82b6-2b3035db1a90.jpg
+INFO:root:Image file size: 273101 bytes
+INFO:root:Image URL set to: uploads/97c283fa-e866-45e0-82b6-2b3035db1a90.jpg
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\97c283fa-e866-45e0-82b6-2b3035db1a90.jpg
+INFO:root:Prediction: Melanocytic Nevi with 100.00% confidence. Top-2: ['Melanocytic Nevi: 100.00%', 'Benign Keratosis-like Lesions: 0.00%']
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:21:50] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:21:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:21:50] "[33mGET /static/uploads/97c283fa-e866-45e0-82b6-2b3035db1a90.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\saura\\Desktop\\SkinDiseasePrediction\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 998-275-650
+INFO:root:Image saved to: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\a863b502-1931-47fc-bd5c-b4d944cbed93.jpg
+INFO:root:Image URL set to: uploads/a863b502-1931-47fc-bd5c-b4d944cbed93.jpg
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\a863b502-1931-47fc-bd5c-b4d944cbed93.jpg
+INFO:root:Prediction: Melanocytic Nevi with 100.00% confidence. Top-2: ['Melanocytic Nevi: 100.00%', 'Benign Keratosis-like Lesions: 0.00%']
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:23:19] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:23:19] "[33mGET /static/uploads/a863b502-1931-47fc-bd5c-b4d944cbed93.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:23:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\saura\\Desktop\\SkinDiseasePrediction\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.118:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 998-275-650
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:28:16] "GET / HTTP/1.1" 200 -
+INFO:root:Image saved to: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\3429cf15-06e9-4a8e-8e5b-eddfbe8e1190.jpg
+INFO:root:Image URL set to: uploads/3429cf15-06e9-4a8e-8e5b-eddfbe8e1190.jpg
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\3429cf15-06e9-4a8e-8e5b-eddfbe8e1190.jpg
+INFO:root:Prediction: Benign Keratosis-like Lesions with 57.87% confidence. Top-2: ['Benign Keratosis-like Lesions: 57.87%', 'Melanocytic Nevi: 25.91%']
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:28:34] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:28:34] "[33mGET /static/uploads/3429cf15-06e9-4a8e-8e5b-eddfbe8e1190.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:28:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\saura\\Desktop\\SkinDiseasePrediction\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 998-275-650
+INFO:root:Image saved to: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\b5c08749-8d1c-4d9d-a455-0de1e1752385.jpg
+INFO:root:Absolute path: C:\Users\saura\Desktop\SkinDiseasePrediction\static\uploads\b5c08749-8d1c-4d9d-a455-0de1e1752385.jpg
+INFO:root:Image file size: 290635 bytes
+INFO:root:Image URL set to: uploads/b5c08749-8d1c-4d9d-a455-0de1e1752385.jpg
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\b5c08749-8d1c-4d9d-a455-0de1e1752385.jpg
+INFO:root:Prediction: Benign Keratosis-like Lesions with 57.87% confidence. Top-2: ['Benign Keratosis-like Lesions: 57.87%', 'Melanocytic Nevi: 25.91%']
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:29:36] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:29:37] "[33mGET /static/uploads/b5c08749-8d1c-4d9d-a455-0de1e1752385.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:29:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:Image saved to: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\e980ac2c-4c44-45c6-a72b-9b6136d3912d.jpg
+INFO:root:Absolute path: C:\Users\saura\Desktop\SkinDiseasePrediction\static\uploads\e980ac2c-4c44-45c6-a72b-9b6136d3912d.jpg
+INFO:root:Image file size: 290635 bytes
+INFO:root:Image URL set to: uploads/e980ac2c-4c44-45c6-a72b-9b6136d3912d.jpg
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\e980ac2c-4c44-45c6-a72b-9b6136d3912d.jpg
+INFO:root:Prediction: Benign Keratosis-like Lesions with 57.87% confidence. Top-2: ['Benign Keratosis-like Lesions: 57.87%', 'Melanocytic Nevi: 25.91%']
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:30:05] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:30:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:30:05] "[33mGET /static/uploads/e980ac2c-4c44-45c6-a72b-9b6136d3912d.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:30:54] "GET / HTTP/1.1" 200 -
+INFO:root:Image saved to: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\17b50c61-7719-41f8-9ef9-09b4722159f3.jpg
+INFO:root:Absolute path: C:\Users\saura\Desktop\SkinDiseasePrediction\static\uploads\17b50c61-7719-41f8-9ef9-09b4722159f3.jpg
+INFO:root:Image file size: 290635 bytes
+INFO:root:Image URL set to: uploads/17b50c61-7719-41f8-9ef9-09b4722159f3.jpg
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\17b50c61-7719-41f8-9ef9-09b4722159f3.jpg
+INFO:root:Prediction: Benign Keratosis-like Lesions with 57.87% confidence. Top-2: ['Benign Keratosis-like Lesions: 57.87%', 'Melanocytic Nevi: 25.91%']
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:30:58] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:30:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:30:58] "[33mGET /static/uploads/17b50c61-7719-41f8-9ef9-09b4722159f3.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:33:43] "GET / HTTP/1.1" 200 -
+INFO:root:Image saved to: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\07da7b91-a2fd-451b-ae35-47ae8824f0ed.jpg
+INFO:root:Absolute path: C:\Users\saura\Desktop\SkinDiseasePrediction\static\uploads\07da7b91-a2fd-451b-ae35-47ae8824f0ed.jpg
+INFO:root:Image file size: 280122 bytes
+INFO:root:Image URL set to: uploads/07da7b91-a2fd-451b-ae35-47ae8824f0ed.jpg
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\07da7b91-a2fd-451b-ae35-47ae8824f0ed.jpg
+INFO:root:Prediction: Melanoma with 42.05% confidence. Top-2: ['Melanoma: 42.05%', 'Melanocytic Nevi: 23.68%']
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:33:59] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:33:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:33:59] "[33mGET /static/uploads/07da7b91-a2fd-451b-ae35-47ae8824f0ed.jpg HTTP/1.1[0m" 404 -
+INFO:root:Image saved to: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\adce8245-861f-42ba-a4f8-9607222d2a99.jpg
+INFO:root:Absolute path: C:\Users\saura\Desktop\SkinDiseasePrediction\static\uploads\adce8245-861f-42ba-a4f8-9607222d2a99.jpg
+INFO:root:Image file size: 280122 bytes
+INFO:root:Image URL set to: uploads/adce8245-861f-42ba-a4f8-9607222d2a99.jpg
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\adce8245-861f-42ba-a4f8-9607222d2a99.jpg
+INFO:root:Prediction: Melanoma with 42.05% confidence. Top-2: ['Melanoma: 42.05%', 'Melanocytic Nevi: 23.68%']
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:35:30] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:35:30] "[33mGET /static/uploads/adce8245-861f-42ba-a4f8-9607222d2a99.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:36:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:37:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:40:58] "GET / HTTP/1.1" 200 -
+INFO:root:Image saved to: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\717ed543-c9e9-4abb-a581-483da880b7f2.jpg
+INFO:root:Absolute path: C:\Users\saura\Desktop\SkinDiseasePrediction\static\uploads\717ed543-c9e9-4abb-a581-483da880b7f2.jpg
+INFO:root:Image file size: 247147 bytes
+INFO:root:Image URL set to: uploads/717ed543-c9e9-4abb-a581-483da880b7f2.jpg
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\717ed543-c9e9-4abb-a581-483da880b7f2.jpg
+INFO:root:Prediction: Melanocytic Nevi with 84.87% confidence. Top-2: ['Melanocytic Nevi: 84.87%', 'Melanoma: 12.10%']
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:41:14] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:41:14] "[33mGET /static/uploads/717ed543-c9e9-4abb-a581-483da880b7f2.jpg HTTP/1.1[0m" 404 -
+INFO:root:Image saved to: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\e205eb7a-1bbc-4009-bcdc-a8b97c3d31da.jpg
+INFO:root:Absolute path: C:\Users\saura\Desktop\SkinDiseasePrediction\static\uploads\e205eb7a-1bbc-4009-bcdc-a8b97c3d31da.jpg
+INFO:root:Image file size: 247147 bytes
+INFO:root:Image URL set to: uploads/e205eb7a-1bbc-4009-bcdc-a8b97c3d31da.jpg
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\../static/uploads\e205eb7a-1bbc-4009-bcdc-a8b97c3d31da.jpg
+INFO:root:Prediction: Melanocytic Nevi with 84.87% confidence. Top-2: ['Melanocytic Nevi: 84.87%', 'Melanoma: 12.10%']
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:51:58] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:51:58] "[33mGET /static/uploads/e205eb7a-1bbc-4009-bcdc-a8b97c3d31da.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\saura\\Desktop\\SkinDiseasePrediction\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 998-275-650
+INFO:root:Image saved to: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\0e470ff8-28a1-48ed-8bfe-2d62c00c259f.jpg
+INFO:root:Absolute path: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static\uploads\0e470ff8-28a1-48ed-8bfe-2d62c00c259f.jpg
+INFO:root:Image file size: 247147 bytes
+INFO:root:Image URL set to: uploads/0e470ff8-28a1-48ed-8bfe-2d62c00c259f.jpg
+INFO:root:Resolved static URL: /static/uploads/0e470ff8-28a1-48ed-8bfe-2d62c00c259f.jpg
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\0e470ff8-28a1-48ed-8bfe-2d62c00c259f.jpg
+INFO:root:Prediction: Melanocytic Nevi with 84.87% confidence. Top-2: ['Melanocytic Nevi: 84.87%', 'Melanoma: 12.10%']
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:57:39] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:57:39] "GET /static/uploads/0e470ff8-28a1-48ed-8bfe-2d62c00c259f.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:58:05] "GET / HTTP/1.1" 200 -
+INFO:root:Image saved to: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\88f7298d-a12f-4f7a-8b20-1a125560205c.jpg
+INFO:root:Absolute path: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static\uploads\88f7298d-a12f-4f7a-8b20-1a125560205c.jpg
+INFO:root:Image file size: 273903 bytes
+INFO:root:Image URL set to: uploads/88f7298d-a12f-4f7a-8b20-1a125560205c.jpg
+INFO:root:Resolved static URL: /static/uploads/88f7298d-a12f-4f7a-8b20-1a125560205c.jpg
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\88f7298d-a12f-4f7a-8b20-1a125560205c.jpg
+INFO:root:Prediction: Melanocytic Nevi with 90.56% confidence. Top-2: ['Melanocytic Nevi: 90.56%', 'Melanoma: 8.25%']
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:58:13] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 03:58:14] "GET /static/uploads/88f7298d-a12f-4f7a-8b20-1a125560205c.jpg HTTP/1.1" 200 -
+INFO:root:Image saved to: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\b4f9a1da-cbdd-4ad2-a1ed-2c1c0ce6223a.jpg
+INFO:root:Absolute path: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static\uploads\b4f9a1da-cbdd-4ad2-a1ed-2c1c0ce6223a.jpg
+INFO:root:Image file size: 273903 bytes
+INFO:root:Image URL set to: uploads/b4f9a1da-cbdd-4ad2-a1ed-2c1c0ce6223a.jpg
+INFO:root:Resolved static URL: /static/uploads/b4f9a1da-cbdd-4ad2-a1ed-2c1c0ce6223a.jpg
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\b4f9a1da-cbdd-4ad2-a1ed-2c1c0ce6223a.jpg
+INFO:root:Prediction: Melanocytic Nevi with 90.56% confidence. Top-2: ['Melanocytic Nevi: 90.56%', 'Melanoma: 8.25%']
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 04:01:20] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 04:01:20] "GET /static/uploads/b4f9a1da-cbdd-4ad2-a1ed-2c1c0ce6223a.jpg HTTP/1.1" 200 -
+INFO:root:Image saved to: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\278ef539-61c2-4674-9074-c78ee2fbf29f.jpg
+INFO:root:Absolute path: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static\uploads\278ef539-61c2-4674-9074-c78ee2fbf29f.jpg
+INFO:root:Image file size: 273903 bytes
+INFO:root:Image URL set to: uploads/278ef539-61c2-4674-9074-c78ee2fbf29f.jpg
+INFO:root:Resolved static URL: /static/uploads/278ef539-61c2-4674-9074-c78ee2fbf29f.jpg
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\278ef539-61c2-4674-9074-c78ee2fbf29f.jpg
+INFO:root:Prediction: Melanocytic Nevi with 90.56% confidence. Top-2: ['Melanocytic Nevi: 90.56%', 'Melanoma: 8.25%']
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 04:03:23] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 04:03:23] "GET /static/uploads/278ef539-61c2-4674-9074-c78ee2fbf29f.jpg HTTP/1.1" 200 -
+INFO:root:Image saved to: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\1e06ec92-62aa-40b6-9c93-ab782d39c6f9.jpg
+INFO:root:Absolute path: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static\uploads\1e06ec92-62aa-40b6-9c93-ab782d39c6f9.jpg
+INFO:root:Image file size: 273903 bytes
+INFO:root:Image URL set to: uploads/1e06ec92-62aa-40b6-9c93-ab782d39c6f9.jpg
+INFO:root:Resolved static URL: /static/uploads/1e06ec92-62aa-40b6-9c93-ab782d39c6f9.jpg
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\1e06ec92-62aa-40b6-9c93-ab782d39c6f9.jpg
+INFO:root:Prediction: Melanocytic Nevi with 90.56% confidence. Top-2: ['Melanocytic Nevi: 90.56%', 'Melanoma: 8.25%']
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 04:03:58] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 04:03:58] "GET /static/uploads/1e06ec92-62aa-40b6-9c93-ab782d39c6f9.jpg HTTP/1.1" 200 -
+INFO:root:Image saved to: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\bc6413d6-93db-4bfe-9f1b-777c68e019c0.jpg
+INFO:root:Absolute path: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static\uploads\bc6413d6-93db-4bfe-9f1b-777c68e019c0.jpg
+INFO:root:Image file size: 273903 bytes
+INFO:root:Image URL set to: uploads/bc6413d6-93db-4bfe-9f1b-777c68e019c0.jpg
+INFO:root:Resolved static URL: /static/uploads/bc6413d6-93db-4bfe-9f1b-777c68e019c0.jpg
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\bc6413d6-93db-4bfe-9f1b-777c68e019c0.jpg
+INFO:root:Prediction: Melanocytic Nevi with 90.56% confidence. Top-2: ['Melanocytic Nevi: 90.56%', 'Melanoma: 8.25%']
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 04:06:24] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 04:06:24] "GET /static/uploads/bc6413d6-93db-4bfe-9f1b-777c68e019c0.jpg HTTP/1.1" 200 -
+INFO:root:Image saved to: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\5ce1a210-f6d2-4040-9082-5446f9090583.jpg
+INFO:root:Absolute path: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static\uploads\5ce1a210-f6d2-4040-9082-5446f9090583.jpg
+INFO:root:Image file size: 273903 bytes
+INFO:root:Image URL set to: uploads/5ce1a210-f6d2-4040-9082-5446f9090583.jpg
+INFO:root:Resolved static URL: /static/uploads/5ce1a210-f6d2-4040-9082-5446f9090583.jpg
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\5ce1a210-f6d2-4040-9082-5446f9090583.jpg
+INFO:root:Prediction: Melanocytic Nevi with 90.56% confidence. Top-2: ['Melanocytic Nevi: 90.56%', 'Melanoma: 8.25%']
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 04:08:30] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 04:08:31] "GET /static/uploads/5ce1a210-f6d2-4040-9082-5446f9090583.jpg HTTP/1.1" 200 -
+INFO:root:Image saved to: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\5f7ca561-c0c3-418b-a295-a674464c3011.jpg
+INFO:root:Absolute path: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static\uploads\5f7ca561-c0c3-418b-a295-a674464c3011.jpg
+INFO:root:Image file size: 273903 bytes
+INFO:root:Image URL set to: uploads/5f7ca561-c0c3-418b-a295-a674464c3011.jpg
+INFO:root:Resolved static URL: /static/uploads/5f7ca561-c0c3-418b-a295-a674464c3011.jpg
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\5f7ca561-c0c3-418b-a295-a674464c3011.jpg
+INFO:root:Prediction: Melanocytic Nevi with 90.56% confidence. Top-2: ['Melanocytic Nevi: 90.56%', 'Melanoma: 8.25%']
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 04:09:17] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 04:09:17] "GET /static/uploads/5f7ca561-c0c3-418b-a295-a674464c3011.jpg HTTP/1.1" 200 -
+INFO:root:Image saved to: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\d1c07392-6284-45da-b351-5c6ec4ae4df8.jpg
+INFO:root:Absolute path: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static\uploads\d1c07392-6284-45da-b351-5c6ec4ae4df8.jpg
+INFO:root:Image file size: 273903 bytes
+INFO:root:Image URL set to: uploads/d1c07392-6284-45da-b351-5c6ec4ae4df8.jpg
+INFO:root:Resolved static URL: /static/uploads/d1c07392-6284-45da-b351-5c6ec4ae4df8.jpg
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\d1c07392-6284-45da-b351-5c6ec4ae4df8.jpg
+INFO:root:Prediction: Melanocytic Nevi with 90.56% confidence. Top-2: ['Melanocytic Nevi: 90.56%', 'Melanoma: 8.25%']
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 04:13:33] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 04:13:33] "GET /static/uploads/d1c07392-6284-45da-b351-5c6ec4ae4df8.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 04:13:48] "GET / HTTP/1.1" 200 -
+INFO:root:Image saved to: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\917b13e2-a34b-4e71-a23e-dd707f5bd729.jpg
+INFO:root:Absolute path: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static\uploads\917b13e2-a34b-4e71-a23e-dd707f5bd729.jpg
+INFO:root:Image file size: 269124 bytes
+INFO:root:Image URL set to: uploads/917b13e2-a34b-4e71-a23e-dd707f5bd729.jpg
+INFO:root:Resolved static URL: /static/uploads/917b13e2-a34b-4e71-a23e-dd707f5bd729.jpg
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\917b13e2-a34b-4e71-a23e-dd707f5bd729.jpg
+INFO:root:Prediction: Melanocytic Nevi with 69.51% confidence. Top-2: ['Melanocytic Nevi: 69.51%', 'Melanoma: 18.47%']
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 04:13:57] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 04:13:57] "GET /static/uploads/917b13e2-a34b-4e71-a23e-dd707f5bd729.jpg HTTP/1.1" 200 -
+INFO:root:Image saved to: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\00a4d34b-c391-43c1-af9a-9f947bb6fc8c.jpg
+INFO:root:Absolute path: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static\uploads\00a4d34b-c391-43c1-af9a-9f947bb6fc8c.jpg
+INFO:root:Image file size: 269124 bytes
+INFO:root:Image URL set to: uploads/00a4d34b-c391-43c1-af9a-9f947bb6fc8c.jpg
+INFO:root:Resolved static URL: /static/uploads/00a4d34b-c391-43c1-af9a-9f947bb6fc8c.jpg
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\00a4d34b-c391-43c1-af9a-9f947bb6fc8c.jpg
+INFO:root:Prediction: Melanocytic Nevi with 69.51% confidence. Top-2: ['Melanocytic Nevi: 69.51%', 'Melanoma: 18.47%']
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 04:15:56] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 04:15:56] "GET /static/uploads/00a4d34b-c391-43c1-af9a-9f947bb6fc8c.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 04:16:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 04:17:41] "GET / HTTP/1.1" 200 -
+INFO:root:Image saved to: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\62464d7e-455f-4ede-9c9a-2444c19c3160.jpg
+INFO:root:Absolute path: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static\uploads\62464d7e-455f-4ede-9c9a-2444c19c3160.jpg
+INFO:root:Image file size: 273903 bytes
+INFO:root:Image URL set to: uploads/62464d7e-455f-4ede-9c9a-2444c19c3160.jpg
+INFO:root:Resolved static URL: /static/uploads/62464d7e-455f-4ede-9c9a-2444c19c3160.jpg
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\62464d7e-455f-4ede-9c9a-2444c19c3160.jpg
+INFO:root:Prediction: Melanocytic Nevi with 90.56% confidence. Top-2: ['Melanocytic Nevi: 90.56%', 'Melanoma: 8.25%']
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 04:17:56] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 04:17:56] "GET /static/uploads/62464d7e-455f-4ede-9c9a-2444c19c3160.jpg HTTP/1.1" 200 -
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.118:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 998-275-650
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 12:10:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 12:10:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:Image saved to: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\73afb5b9-fdf9-41cd-8869-70c4f6e9d675.jpg
+INFO:root:Absolute path: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static\uploads\73afb5b9-fdf9-41cd-8869-70c4f6e9d675.jpg
+INFO:root:Image file size: 266602 bytes
+INFO:root:Image URL set to: uploads/73afb5b9-fdf9-41cd-8869-70c4f6e9d675.jpg
+INFO:root:Resolved static URL: /static/uploads/73afb5b9-fdf9-41cd-8869-70c4f6e9d675.jpg
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\73afb5b9-fdf9-41cd-8869-70c4f6e9d675.jpg
+INFO:root:Prediction: Benign Keratosis-like Lesions with 38.48% confidence. Top-2: ['Benign Keratosis-like Lesions: 38.48%', 'Melanocytic Nevi: 31.12%']
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 12:13:08] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 12:13:08] "GET /static/uploads/73afb5b9-fdf9-41cd-8869-70c4f6e9d675.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 12:13:55] "GET / HTTP/1.1" 200 -
+INFO:root:Image saved to: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\ab1db303-50e1-4e6d-911e-fd3832a89add.jpg
+INFO:root:Absolute path: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static\uploads\ab1db303-50e1-4e6d-911e-fd3832a89add.jpg
+INFO:root:Image file size: 339714 bytes
+INFO:root:Image URL set to: uploads/ab1db303-50e1-4e6d-911e-fd3832a89add.jpg
+INFO:root:Resolved static URL: /static/uploads/ab1db303-50e1-4e6d-911e-fd3832a89add.jpg
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\ab1db303-50e1-4e6d-911e-fd3832a89add.jpg
+INFO:root:Prediction: Melanocytic Nevi with 90.88% confidence. Top-2: ['Melanocytic Nevi: 90.88%', 'Benign Keratosis-like Lesions: 5.21%']
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 12:14:08] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 12:14:08] "GET /static/uploads/ab1db303-50e1-4e6d-911e-fd3832a89add.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 12:14:59] "GET / HTTP/1.1" 200 -
+INFO:root:Image saved to: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\ddec59be-d3db-4ad4-ab01-9526eed1ed72.jpg
+INFO:root:Absolute path: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static\uploads\ddec59be-d3db-4ad4-ab01-9526eed1ed72.jpg
+INFO:root:Image file size: 274070 bytes
+INFO:root:Image URL set to: uploads/ddec59be-d3db-4ad4-ab01-9526eed1ed72.jpg
+INFO:root:Resolved static URL: /static/uploads/ddec59be-d3db-4ad4-ab01-9526eed1ed72.jpg
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\ddec59be-d3db-4ad4-ab01-9526eed1ed72.jpg
+INFO:root:Prediction: Melanocytic Nevi with 62.10% confidence. Top-2: ['Melanocytic Nevi: 62.10%', 'Melanoma: 31.44%']
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 12:15:10] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 12:15:10] "GET /static/uploads/ddec59be-d3db-4ad4-ab01-9526eed1ed72.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 12:16:32] "GET / HTTP/1.1" 200 -
+INFO:root:Image saved to: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\45e46fc5-bff6-4919-b27a-d56310cb3c7f.jpg
+INFO:root:Absolute path: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static\uploads\45e46fc5-bff6-4919-b27a-d56310cb3c7f.jpg
+INFO:root:Image file size: 311444 bytes
+INFO:root:Image URL set to: uploads/45e46fc5-bff6-4919-b27a-d56310cb3c7f.jpg
+INFO:root:Resolved static URL: /static/uploads/45e46fc5-bff6-4919-b27a-d56310cb3c7f.jpg
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\45e46fc5-bff6-4919-b27a-d56310cb3c7f.jpg
+INFO:root:Prediction: Vascular Lesions with 94.57% confidence. Top-2: ['Vascular Lesions: 94.57%', 'Melanocytic Nevi: 3.05%']
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 12:16:42] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 12:16:42] "GET /static/uploads/45e46fc5-bff6-4919-b27a-d56310cb3c7f.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 12:18:54] "GET / HTTP/1.1" 200 -
+INFO:root:Image saved to: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\7b8092f3-5338-40c0-858e-aca064a302c7.jpg
+INFO:root:Absolute path: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static\uploads\7b8092f3-5338-40c0-858e-aca064a302c7.jpg
+INFO:root:Image file size: 375238 bytes
+INFO:root:Image URL set to: uploads/7b8092f3-5338-40c0-858e-aca064a302c7.jpg
+INFO:root:Resolved static URL: /static/uploads/7b8092f3-5338-40c0-858e-aca064a302c7.jpg
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\7b8092f3-5338-40c0-858e-aca064a302c7.jpg
+INFO:root:Prediction: Basal Cell Carcinoma with 85.47% confidence. Top-2: ['Basal Cell Carcinoma: 85.47%', 'Melanocytic Nevi: 7.73%']
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 12:19:04] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 12:19:04] "GET /static/uploads/7b8092f3-5338-40c0-858e-aca064a302c7.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 12:25:24] "GET / HTTP/1.1" 200 -
+INFO:root:Image saved to: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\dcde6de1-6f66-4d49-90ff-5fe299ab3831.jpg
+INFO:root:Absolute path: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static\uploads\dcde6de1-6f66-4d49-90ff-5fe299ab3831.jpg
+INFO:root:Image file size: 341095 bytes
+INFO:root:Image URL set to: uploads/dcde6de1-6f66-4d49-90ff-5fe299ab3831.jpg
+INFO:root:Resolved static URL: /static/uploads/dcde6de1-6f66-4d49-90ff-5fe299ab3831.jpg
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\dcde6de1-6f66-4d49-90ff-5fe299ab3831.jpg
+INFO:root:Prediction: Melanocytic Nevi with 45.13% confidence. Top-2: ['Melanocytic Nevi: 45.13%', 'Actinic Keratosis / Intraepithelial Carcinoma: 44.99%']
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 12:26:02] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 12:26:02] "GET /static/uploads/dcde6de1-6f66-4d49-90ff-5fe299ab3831.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 12:26:05] "GET / HTTP/1.1" 200 -
+INFO:root:Image saved to: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\4e92fa24-6b72-46e4-94f9-f73c425f1e4e.jpg
+INFO:root:Absolute path: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static\uploads\4e92fa24-6b72-46e4-94f9-f73c425f1e4e.jpg
+INFO:root:Image file size: 322972 bytes
+INFO:root:Image URL set to: uploads/4e92fa24-6b72-46e4-94f9-f73c425f1e4e.jpg
+INFO:root:Resolved static URL: /static/uploads/4e92fa24-6b72-46e4-94f9-f73c425f1e4e.jpg
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\4e92fa24-6b72-46e4-94f9-f73c425f1e4e.jpg
+INFO:root:Prediction: Vascular Lesions with 92.46% confidence. Top-2: ['Vascular Lesions: 92.46%', 'Melanocytic Nevi: 5.91%']
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 12:27:02] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 12:27:02] "GET /static/uploads/4e92fa24-6b72-46e4-94f9-f73c425f1e4e.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 12:27:47] "GET / HTTP/1.1" 200 -
+INFO:root:Image saved to: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\01590d7d-9108-4789-86c4-b9c4e4e9c168.jpeg
+INFO:root:Absolute path: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static\uploads\01590d7d-9108-4789-86c4-b9c4e4e9c168.jpeg
+INFO:root:Image file size: 25266 bytes
+INFO:root:Image URL set to: uploads/01590d7d-9108-4789-86c4-b9c4e4e9c168.jpeg
+INFO:root:Resolved static URL: /static/uploads/01590d7d-9108-4789-86c4-b9c4e4e9c168.jpeg
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\01590d7d-9108-4789-86c4-b9c4e4e9c168.jpeg
+INFO:root:Prediction: Melanocytic Nevi with 75.14% confidence. Top-2: ['Melanocytic Nevi: 75.14%', 'Basal Cell Carcinoma: 14.56%']
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 12:28:38] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 12:28:38] "GET /static/uploads/01590d7d-9108-4789-86c4-b9c4e4e9c168.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 12:29:03] "GET / HTTP/1.1" 200 -
+INFO:root:Image saved to: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\04840aea-daa6-44a8-84fd-a091904d26b3.jpeg
+INFO:root:Absolute path: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static\uploads\04840aea-daa6-44a8-84fd-a091904d26b3.jpeg
+INFO:root:Image file size: 22898 bytes
+INFO:root:Image URL set to: uploads/04840aea-daa6-44a8-84fd-a091904d26b3.jpeg
+INFO:root:Resolved static URL: /static/uploads/04840aea-daa6-44a8-84fd-a091904d26b3.jpeg
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\04840aea-daa6-44a8-84fd-a091904d26b3.jpeg
+INFO:root:Prediction: Benign Keratosis-like Lesions with 53.22% confidence. Top-2: ['Benign Keratosis-like Lesions: 53.22%', 'Melanocytic Nevi: 29.44%']
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 12:29:17] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 12:29:17] "GET /static/uploads/04840aea-daa6-44a8-84fd-a091904d26b3.jpeg HTTP/1.1" 200 -
+ERROR:root:Model file not found!
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.117:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 998-275-650
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 23:40:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 23:40:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:Image saved to: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\e3c5d9d4-9a92-4bed-80c7-028c5e24e9f1.jpg
+INFO:root:Absolute path: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static\uploads\e3c5d9d4-9a92-4bed-80c7-028c5e24e9f1.jpg
+INFO:root:Image file size: 80012 bytes
+INFO:root:Image URL set to: uploads/e3c5d9d4-9a92-4bed-80c7-028c5e24e9f1.jpg
+INFO:root:Resolved static URL: /static/uploads/e3c5d9d4-9a92-4bed-80c7-028c5e24e9f1.jpg
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\e3c5d9d4-9a92-4bed-80c7-028c5e24e9f1.jpg
+INFO:root:Prediction: Melanocytic Nevi with 75.08% confidence. Top-2: ['Melanocytic Nevi: 75.08%', 'Benign Keratosis-like Lesions: 10.18%']
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 23:41:03] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2025 23:41:03] "GET /static/uploads/e3c5d9d4-9a92-4bed-80c7-028c5e24e9f1.jpg HTTP/1.1" 200 -
+ERROR:root:Model file not found!
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.118:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 998-275-650
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2025 00:17:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2025 00:17:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:Image saved to: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\c4b0aabb-ffd8-4670-9402-17d579db824e.jpg
+INFO:root:Absolute path: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static\uploads\c4b0aabb-ffd8-4670-9402-17d579db824e.jpg
+INFO:root:Image file size: 295747 bytes
+INFO:root:Image URL set to: uploads/c4b0aabb-ffd8-4670-9402-17d579db824e.jpg
+INFO:root:Resolved static URL: /static/uploads/c4b0aabb-ffd8-4670-9402-17d579db824e.jpg
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\c4b0aabb-ffd8-4670-9402-17d579db824e.jpg
+INFO:root:Image saved to: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\dc8c7bff-cd8b-42bd-9e03-a909eb45cbf5.jpg
+INFO:root:Absolute path: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static\uploads\dc8c7bff-cd8b-42bd-9e03-a909eb45cbf5.jpg
+INFO:root:Image file size: 295747 bytes
+INFO:root:Image URL set to: uploads/dc8c7bff-cd8b-42bd-9e03-a909eb45cbf5.jpg
+INFO:root:Resolved static URL: /static/uploads/dc8c7bff-cd8b-42bd-9e03-a909eb45cbf5.jpg
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\dc8c7bff-cd8b-42bd-9e03-a909eb45cbf5.jpg
+INFO:root:Prediction: Melanocytic Nevi with 99.55% confidence. Top-2: ['Melanocytic Nevi: 99.55%', 'Melanoma: 0.44%']
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2025 00:17:58] "POST / HTTP/1.1" 200 -
+INFO:root:Prediction: Melanocytic Nevi with 99.55% confidence. Top-2: ['Melanocytic Nevi: 99.55%', 'Melanoma: 0.44%']
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2025 00:17:59] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2025 00:17:59] "GET /static/uploads/dc8c7bff-cd8b-42bd-9e03-a909eb45cbf5.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2025 00:18:02] "GET / HTTP/1.1" 200 -
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.117:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 998-275-650
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2025 15:17:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2025 15:17:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:Image saved to: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\cee8641d-70b3-47a0-97a1-cd36b6c63080.jpg
+INFO:root:Absolute path: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static\uploads\cee8641d-70b3-47a0-97a1-cd36b6c63080.jpg
+INFO:root:Image file size: 273101 bytes
+INFO:root:Image URL set to: uploads/cee8641d-70b3-47a0-97a1-cd36b6c63080.jpg
+INFO:root:Resolved static URL: /static/uploads/cee8641d-70b3-47a0-97a1-cd36b6c63080.jpg
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\cee8641d-70b3-47a0-97a1-cd36b6c63080.jpg
+INFO:root:Prediction: Melanocytic Nevi with 100.00% confidence. Top-2: ['Melanocytic Nevi: 100.00%', 'Benign Keratosis-like Lesions: 0.00%']
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2025 15:17:45] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Mar/2025 15:17:45] "GET /static/uploads/cee8641d-70b3-47a0-97a1-cd36b6c63080.jpg HTTP/1.1" 200 -
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 998-275-650
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 13:29:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 13:29:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:Image saved to: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\93a7e31c-f3fc-423d-bfe4-84ef921bfef4.jpg
+INFO:root:Absolute path: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static\uploads\93a7e31c-f3fc-423d-bfe4-84ef921bfef4.jpg
+INFO:root:Image file size: 303170 bytes
+INFO:root:Image URL set to: uploads/93a7e31c-f3fc-423d-bfe4-84ef921bfef4.jpg
+INFO:root:Resolved static URL: /static/uploads/93a7e31c-f3fc-423d-bfe4-84ef921bfef4.jpg
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\93a7e31c-f3fc-423d-bfe4-84ef921bfef4.jpg
+INFO:root:Prediction: Melanocytic Nevi with 36.65% confidence. Top-2: ['Melanocytic Nevi: 36.65%', 'Benign Keratosis-like Lesions: 31.51%']
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 13:29:20] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 13:29:20] "GET /static/uploads/93a7e31c-f3fc-423d-bfe4-84ef921bfef4.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 13:37:58] "GET / HTTP/1.1" 200 -
+INFO:root:Image saved to: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\c0c67d2d-acee-4909-9a7e-42b98a77d05e.jpg
+INFO:root:Absolute path: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static\uploads\c0c67d2d-acee-4909-9a7e-42b98a77d05e.jpg
+INFO:root:Image file size: 274405 bytes
+INFO:root:Image URL set to: uploads/c0c67d2d-acee-4909-9a7e-42b98a77d05e.jpg
+INFO:root:Resolved static URL: /static/uploads/c0c67d2d-acee-4909-9a7e-42b98a77d05e.jpg
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\c0c67d2d-acee-4909-9a7e-42b98a77d05e.jpg
+INFO:root:Prediction: Melanocytic Nevi with 99.94% confidence. Top-2: ['Melanocytic Nevi: 99.94%', 'Benign Keratosis-like Lesions: 0.05%']
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 13:39:59] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 13:39:59] "GET /static/uploads/c0c67d2d-acee-4909-9a7e-42b98a77d05e.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 13:40:15] "GET / HTTP/1.1" 200 -
+INFO:root:Image saved to: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\7f38c9bf-f5c2-4e4f-86e1-dd5fdd3ea69a.jpg
+INFO:root:Absolute path: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static\uploads\7f38c9bf-f5c2-4e4f-86e1-dd5fdd3ea69a.jpg
+INFO:root:Image file size: 307050 bytes
+INFO:root:Image URL set to: uploads/7f38c9bf-f5c2-4e4f-86e1-dd5fdd3ea69a.jpg
+INFO:root:Resolved static URL: /static/uploads/7f38c9bf-f5c2-4e4f-86e1-dd5fdd3ea69a.jpg
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\7f38c9bf-f5c2-4e4f-86e1-dd5fdd3ea69a.jpg
+INFO:root:Prediction: Melanocytic Nevi with 70.12% confidence. Top-2: ['Melanocytic Nevi: 70.12%', 'Melanoma: 24.92%']
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 13:40:50] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 13:40:50] "GET /static/uploads/7f38c9bf-f5c2-4e4f-86e1-dd5fdd3ea69a.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 13:40:55] "GET / HTTP/1.1" 200 -
+INFO:root:Image saved to: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\05f5de72-611f-4dd4-98bc-02a18c639173.jpg
+INFO:root:Absolute path: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static\uploads\05f5de72-611f-4dd4-98bc-02a18c639173.jpg
+INFO:root:Image file size: 316432 bytes
+INFO:root:Image URL set to: uploads/05f5de72-611f-4dd4-98bc-02a18c639173.jpg
+INFO:root:Resolved static URL: /static/uploads/05f5de72-611f-4dd4-98bc-02a18c639173.jpg
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\05f5de72-611f-4dd4-98bc-02a18c639173.jpg
+INFO:root:Prediction: Melanocytic Nevi with 51.39% confidence. Top-2: ['Melanocytic Nevi: 51.39%', 'Melanoma: 37.89%']
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 13:41:07] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 13:41:07] "GET /static/uploads/05f5de72-611f-4dd4-98bc-02a18c639173.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 13:41:09] "GET / HTTP/1.1" 200 -
+INFO:root:Image saved to: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\4ae50d1f-9cad-4871-9985-b0e5abc9d98b.jpg
+INFO:root:Absolute path: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static\uploads\4ae50d1f-9cad-4871-9985-b0e5abc9d98b.jpg
+INFO:root:Image file size: 336322 bytes
+INFO:root:Image URL set to: uploads/4ae50d1f-9cad-4871-9985-b0e5abc9d98b.jpg
+INFO:root:Resolved static URL: /static/uploads/4ae50d1f-9cad-4871-9985-b0e5abc9d98b.jpg
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\4ae50d1f-9cad-4871-9985-b0e5abc9d98b.jpg
+INFO:root:Prediction: Melanoma with 52.17% confidence. Top-2: ['Melanoma: 52.17%', 'Melanocytic Nevi: 46.13%']
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 13:41:25] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 13:41:25] "GET /static/uploads/4ae50d1f-9cad-4871-9985-b0e5abc9d98b.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 13:43:20] "GET / HTTP/1.1" 200 -
+INFO:root:Image saved to: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\6a44eb92-d01b-4c98-adc0-9697a3c7e54c.jpeg
+INFO:root:Absolute path: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static\uploads\6a44eb92-d01b-4c98-adc0-9697a3c7e54c.jpeg
+INFO:root:Image file size: 29927 bytes
+INFO:root:Image URL set to: uploads/6a44eb92-d01b-4c98-adc0-9697a3c7e54c.jpeg
+INFO:root:Resolved static URL: /static/uploads/6a44eb92-d01b-4c98-adc0-9697a3c7e54c.jpeg
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\6a44eb92-d01b-4c98-adc0-9697a3c7e54c.jpeg
+INFO:root:Prediction: Melanoma with 75.11% confidence. Top-2: ['Melanoma: 75.11%', 'Melanocytic Nevi: 23.26%']
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 13:43:30] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 13:43:30] "GET /static/uploads/6a44eb92-d01b-4c98-adc0-9697a3c7e54c.jpeg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 13:44:22] "GET / HTTP/1.1" 200 -
+INFO:root:Image saved to: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\7a206001-b5f2-4d41-898f-8529640ac263.jpg
+INFO:root:Absolute path: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static\uploads\7a206001-b5f2-4d41-898f-8529640ac263.jpg
+INFO:root:Image file size: 309818 bytes
+INFO:root:Image URL set to: uploads/7a206001-b5f2-4d41-898f-8529640ac263.jpg
+INFO:root:Resolved static URL: /static/uploads/7a206001-b5f2-4d41-898f-8529640ac263.jpg
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\7a206001-b5f2-4d41-898f-8529640ac263.jpg
+INFO:root:Prediction: Melanoma with 45.88% confidence. Top-2: ['Melanoma: 45.88%', 'Melanocytic Nevi: 26.29%']
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 13:44:52] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 13:44:52] "GET /static/uploads/7a206001-b5f2-4d41-898f-8529640ac263.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 13:45:35] "GET / HTTP/1.1" 200 -
+INFO:root:Image saved to: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\e9fe4267-4d61-47a5-b8a7-51fcb23e8f14.jpg
+INFO:root:Absolute path: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static\uploads\e9fe4267-4d61-47a5-b8a7-51fcb23e8f14.jpg
+INFO:root:Image file size: 277663 bytes
+INFO:root:Image URL set to: uploads/e9fe4267-4d61-47a5-b8a7-51fcb23e8f14.jpg
+INFO:root:Resolved static URL: /static/uploads/e9fe4267-4d61-47a5-b8a7-51fcb23e8f14.jpg
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\e9fe4267-4d61-47a5-b8a7-51fcb23e8f14.jpg
+INFO:root:Prediction: Melanocytic Nevi with 36.18% confidence. Top-2: ['Melanocytic Nevi: 36.18%', 'Basal Cell Carcinoma: 22.02%']
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 13:45:45] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 13:45:45] "GET /static/uploads/e9fe4267-4d61-47a5-b8a7-51fcb23e8f14.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 13:47:46] "GET / HTTP/1.1" 200 -
+INFO:root:Image saved to: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\bc618fee-aa91-49e0-b8c7-4513ceb0e368.jpg
+INFO:root:Absolute path: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static\uploads\bc618fee-aa91-49e0-b8c7-4513ceb0e368.jpg
+INFO:root:Image file size: 336322 bytes
+INFO:root:Image URL set to: uploads/bc618fee-aa91-49e0-b8c7-4513ceb0e368.jpg
+INFO:root:Resolved static URL: /static/uploads/bc618fee-aa91-49e0-b8c7-4513ceb0e368.jpg
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\bc618fee-aa91-49e0-b8c7-4513ceb0e368.jpg
+INFO:root:Prediction: Melanoma with 52.17% confidence. Top-2: ['Melanoma: 52.17%', 'Melanocytic Nevi: 46.13%']
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 13:54:52] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 13:54:52] "GET /static/uploads/bc618fee-aa91-49e0-b8c7-4513ceb0e368.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 13:55:05] "GET / HTTP/1.1" 200 -
+INFO:root:Image saved to: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\95d874aa-aade-476d-860b-21db888614a1.jpg
+INFO:root:Absolute path: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static\uploads\95d874aa-aade-476d-860b-21db888614a1.jpg
+INFO:root:Image file size: 247904 bytes
+INFO:root:Image URL set to: uploads/95d874aa-aade-476d-860b-21db888614a1.jpg
+INFO:root:Resolved static URL: /static/uploads/95d874aa-aade-476d-860b-21db888614a1.jpg
+INFO:root:Image preprocessed: C:\Users\saura\Desktop\SkinDiseasePrediction\src\static/uploads\95d874aa-aade-476d-860b-21db888614a1.jpg
+INFO:root:Prediction: Melanocytic Nevi with 76.00% confidence. Top-2: ['Melanocytic Nevi: 76.00%', 'Melanoma: 21.58%']
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 13:55:12] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2025 13:55:12] "GET /static/uploads/95d874aa-aade-476d-860b-21db888614a1.jpg HTTP/1.1" 200 -
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.118:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 652-936-310
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.118:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:root:Model loaded successfully.
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 998-275-650

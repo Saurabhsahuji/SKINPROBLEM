@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #0d1b2a 0%, #1b263b 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            position: relative;
+        }
+        /* Particle background effect */
+        .background-particles {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"><circle cx="10" cy="10" r="1" fill="rgba(0, 255, 255, 0.3)"/></svg>') repeat;
+            animation: particleFloat 20s linear infinite;
+            opacity: 0.1;
+        }
+        @keyframes particleFloat {
+            0% { background-position: 0 0; }
+            100% { background-position: 100px 100px; }
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 2.5rem;
+            max-width: 90vw; /* Scale with viewport width */
+            max-height: 90vh; /* Scale with viewport height */
+            width: 100%;
+            margin: 1rem;
+            box-shadow: 0 0 30px rgba(0, 255, 255, 0.2);
+            position: relative;
+            z-index: 1;
+            display: flex;
+            flex-direction: row; /* Side-by-side layout */
+            justify-content: space-between;
+            align-items: center;
+            overflow-y: auto; /* Fallback for overflow, but we aim to avoid this */
+        }
+        .image-section {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 1.5rem; /* Space between image and details */
+        }
+        .details-section {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .title {
+            background: linear-gradient(to right, #00e0ff, #00aaff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+        }
+        .uploaded-img {
+            border: 2px solid rgba(0, 255, 255, 0.3);
+            border-radius: 10px;
+            transition: all 0.3s ease;
+            max-width: 100%; /* Ensure image doesn't overflow */
+            max-height: 80%; /* Limit image height to fit container */
+            height: auto; /* Maintain aspect ratio */
+        }
+        .uploaded-img:hover {
+            transform: scale(1.03);
+            box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+        }
+        .upload-another-btn {
+            transition: all 0.3s ease;
+        }
+        .upload-another-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+        }
+        .upload-another-btn:active {
+            transform: translateY(1px);
+        }
+        /* Animations */
+        @keyframes fadeInDown {
+            0% { opacity: 0; transform: translateY(-20px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+        .animate-fadeInDown {
+            animation: fadeInDown 1s ease-out forwards;
+        }
+        @keyframes fadeInUp {
+            0% { opacity: 0; transform: translateY(20px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+        .animate-fadeInUp {
+            animation: fadeInUp 1s ease-out forwards;
+            animation-delay: 0.3s;
+            opacity: 0;
+        }
+        @keyframes glowPulse {
+            0% { box-shadow: 0 0 10px rgba(0, 255, 255, 0.3); }
+            50% { box-shadow: 0 0 20px rgba(0, 255, 255, 0.5); }
+            100% { box-shadow: 0 0 10px rgba(0, 255, 255, 0.3); }
+        }
+        .glow-pulse {
+            animation: glowPulse 2s infinite;
+        }
+        /* Responsive adjustments to ensure full window fit */
+        @media (max-height: 800px) {
+            .container {
+                padding: 1.5rem;
+            }
+            .title {
+                font-size: 2rem; /* Slightly smaller title */
+            }
+            .uploaded-img {
+                width: 200px; /* Slightly smaller image */
+            }
+            .text-2xl {
+                font-size: 1.25rem; /* Adjust problem text */
+            }
+            .text-lg {
+                font-size: 1rem; /* Adjust solution text */
+            }
+            p {
+                font-size: 0.9rem; /* Adjust other text */
+            }
+            .text-sm {
+                font-size: 0.8rem; /* Adjust small text */
+            }
+            .upload-another-btn {
+                padding: 0.75rem 1.5rem;
+                font-size: 0.9rem;
+            }
+            .image-section {
+                margin-right: 1rem;
+            }
+        }
+        @media (max-height: 600px) {
+            .container {
+                padding: 1rem;
+            }
+            .title {
+                font-size: 1.5rem;
+            }
+            .uploaded-img {
+                width: 150px;
+            }
+            .text-2xl {
+                font-size: 1rem;
+            }
+            .text-lg {
+                font-size: 0.875rem;
+            }
+            p {
+                font-size: 0.8rem;
+            }
+            .text-sm {
+                font-size: 0.7rem;
+            }
+            .upload-another-btn {
+                padding: 0.5rem 1rem;
+                font-size: 0.8rem;
+            }
+            .image-section {
+                margin-right: 0.75rem;
+            }
+        }
+        @media (max-height: 400px) {
+            .container {
+                padding: 0.5rem;
+            }
+            .title {
+                font-size: 1.25rem;
+            }
+            .uploaded-img {
+                width: 120px;
+            }
+            .text-2xl {
+                font-size: 0.875rem;
+            }
+            .text-lg {
+                font-size: 0.75rem;
+            }
+            p {
+                font-size: 0.7rem;
+            }
+            .text-sm {
+                font-size: 0.6rem;
+            }
+            .upload-another-btn {
+                padding: 0.4rem 0.8rem;
+                font-size: 0.7rem;
+            }
+            .image-section {
+                margin-right: 0.5rem;
+            }
+        }
+        @media (max-width: 800px) {
+            .container {
+                flex-direction: column; /* Stack image and details on small screens */
+                padding: 1.5rem;
+            }
+            .image-section {
+                margin-right: 0;
+                margin-bottom: 1.5rem;
+            }
+            .details-section {
+                align-items: center;
+                text-align: center;
+            }
+            .uploaded-img {
+                width: 200px;
+            }
+        }
+        @media (max-width: 500px) {
+            .container {
+                padding: 1rem;
+            }
+            .title {
+                font-size: 1.5rem;
+            }
+            .uploaded-img {
+                width: 150px;
+            }
+            .text-2xl {
+                font-size: 1.25rem;
+            }
+            .text-lg {
+                font-size: 1rem;
+            }
+            p {
+                font-size: 0.9rem;
+            }
+        }
+        @media (max-width: 400px) {
+            .container {
+                padding: 0.5rem;
+            }
+            .title {
+                font-size: 1.25rem;
+            }
+            .uploaded-img {
+                width: 120px;
+            }
+            .text-2xl {
+                font-size: 1rem;
+            }
+            .text-lg {
+                font-size: 0.875rem;
+            }
+            p {
+                font-size: 0.8rem;
+            }
+            .text-sm {
+                font-size: 0.7rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="background-particles"></div>
+    <div class="container glow-pulse">
+        <div class="image-section">
+            <img src="{{ url_for('static', filename=img_path) }}" alt="Uploaded Image" class="uploaded-img animate-fadeInUp" width="300" onerror="console.log('Failed to load image at: {{ url_for('static', filename=img_path) }}')">
+        </div>
+        <div class="details-section">
+            <h1 class="text-4xl font-bold mb-4 title animate-fadeInDown">Prediction Result</h1>
+            <p class="text-gray-300 mb-4 animate-fadeInUp">Debug: Image Path = {{ url_for('static', filename=img_path) }}</p>
+            <p class="text-2xl font-semibold text-red-400 mb-2 animate-fadeInUp">{{ result.problem }}</p>
+            <p class="text-lg text-green-400 mb-2 animate-fadeInUp">{{ result.solution }}</p>
+            <p class="text-gray-300 mb-4 animate-fadeInUp">{{ result.confidence }}</p>
+            <p class="text-lg font-semibold text-gray-200 mb-2 animate-fadeInUp">Top Predictions:</p>
+            {% if result.top_predictions %}
+                <p class="text-gray-300 animate-fadeInUp">{{ result.top_predictions[0] }}</p>
+                <p class="text-gray-300 animate-fadeInUp">{{ result.top_predictions[1] }}</p>
+            {% else %}
+                <p class="text-gray-300 animate-fadeInUp">No top predictions available.</p>
+            {% endif %}
+            <a href="/" class="upload-another-btn inline-block mt-6 bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-semibold py-3 px-6 rounded-full hover:from-cyan-600 hover:to-blue-700 transition duration-300 animate-fadeInUp">Upload Another Image</a>
+            <div class="mt-6 text-gray-400 text-sm animate-fadeInUp">
+                <p>Our ML model provides predictions based on advanced image analysis. For accurate results, consult a dermatologist.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

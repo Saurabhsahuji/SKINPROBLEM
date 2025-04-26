@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skin Disease Prediction</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #0d1b2a 0%, #1b263b 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            overflow: hidden;
+            position: relative;
+        }
+        /* Particle background effect */
+        .background-particles {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"><circle cx="10" cy="10" r="1" fill="rgba(0, 255, 255, 0.3)"/></svg>') repeat;
+            animation: particleFloat 20s linear infinite;
+            opacity: 0.1;
+        }
+        @keyframes particleFloat {
+            0% { background-position: 0 0; }
+            100% { background-position: 100px 100px; }
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 2.5rem;
+            max-width: 500px;
+            width: 100%;
+            margin: 1rem;
+            box-shadow: 0 0 30px rgba(0, 255, 255, 0.2);
+            position: relative;
+            z-index: 1;
+        }
+        .title {
+            background: linear-gradient(to right, #00e0ff, #00aaff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+        }
+        .upload-btn, .predict-btn {
+            transition: all 0.3s ease;
+        }
+        .upload-btn:hover, .predict-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+        }
+        .upload-btn:active, .predict-btn:active {
+            transform: translateY(1px);
+        }
+        .error {
+            color: #ff6b6b;
+            background: rgba(255, 107, 107, 0.1);
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            border: 1px solid rgba(255, 107, 107, 0.3);
+            margin-top: 1rem;
+        }
+        /* Animations */
+        @keyframes fadeInDown {
+            0% { opacity: 0; transform: translateY(-20px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+        .animate-fadeInDown {
+            animation: fadeInDown 1s ease-out forwards;
+        }
+        @keyframes fadeInUp {
+            0% { opacity: 0; transform: translateY(20px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+        .animate-fadeInUp {
+            animation: fadeInUp 1s ease-out forwards;
+            animation-delay: 0.3s;
+            opacity: 0;
+        }
+        @keyframes glowPulse {
+            0% { box-shadow: 0 0 10px rgba(0, 255, 255, 0.3); }
+            50% { box-shadow: 0 0 20px rgba(0, 255, 255, 0.5); }
+            100% { box-shadow: 0 0 10px rgba(0, 255, 255, 0.3); }
+        }
+        .glow-pulse {
+            animation: glowPulse 2s infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="background-particles"></div>
+    <div class="container glow-pulse">
+        <h1 class="text-4xl font-bold mb-4 title animate-fadeInDown">Skin Disease Prediction</h1>
+        <p class="text-gray-300 mb-6 animate-fadeInDown">Upload a skin image to analyze potential conditions with ML precision.</p>
+        <form method="POST" enctype="multipart/form-data" class="space-y-4 animate-fadeInUp">
+            <div>
+                <label for="file" class="block text-sm font-medium text-gray-300 mb-2">Choose Skin Image</label>
+                <input type="file" name="file" id="file" accept="image/*" class="upload-btn block w-full text-sm text-gray-400 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-indigo-900 file:text-cyan-400 hover:file:bg-indigo-800 transition duration-300">
+            </div>
+            <div>
+                <input type="submit" value="Analyze Now" class="predict-btn w-full bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-semibold py-3 px-6 rounded-full hover:from-cyan-600 hover:to-blue-700 transition duration-300">
+            </div>
+        </form>
+        {% if error %}
+            <p class="error animate-fadeInUp">{{ error }}</p>
+        {% endif %}
+        <div class="mt-6 text-gray-400 text-sm animate-fadeInUp">
+            <p>Powered by advanced neural networks. For best results, use a clear, well-lit image.</p>
+        </div>
+    </div>
+</body>
+</html>
